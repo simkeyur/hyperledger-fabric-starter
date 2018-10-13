@@ -34,9 +34,3 @@ Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
         chmod u+x install-hyperledger-composer-ubuntu.sh
 
         ./install-hyperledger-composer-ubuntu.sh
-
-4. Install &amp; Run Hyperledger
-
-        chmod u+x install-hyperledger-sogetiConsultantChain-ubuntu.sh
-
-        ./install-hyperledger-sogetiConsultantChain-ubuntu.sh
