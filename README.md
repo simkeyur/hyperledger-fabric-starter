@@ -11,7 +11,9 @@ Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
 
         sudo apt-get install git-core
 
-        git --version &amp;&amp; curl -v
+        git --version  
+        
+        curl -v
 
 2.Clone Main Repo &amp; getting Prereqs
 
