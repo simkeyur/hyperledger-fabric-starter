@@ -15,7 +15,7 @@
 
 # Usage:
 #
-# ./prereqs-ubuntu.sh
+# ./hyperledger-prereq-ubuntu.sh
 #
 # User must then logout and login upon completion of script
 #
@@ -122,6 +122,7 @@ fi
 
 # Install unzip, required to install hyperledger fabric.
 sudo apt-get -y install unzip
+ sudo npm cache clean -f
 
 # Print installation details for user
 echo ''
