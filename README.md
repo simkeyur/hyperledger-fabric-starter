@@ -3,7 +3,7 @@
 
 Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
 
-1.Install Curl &amp; Git
+1. Install Curl &amp; Git
 
         sudo apt-get update
 
@@ -15,7 +15,7 @@ Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
         
         curl -v
 
-2.Clone Main Repo &amp; getting Prereqs
+2. Clone Main Repo &amp; getting Prereqs
 
         git clone https://github.com/simkeyur/hyperledger-fabric-starter.git
 
@@ -27,7 +27,7 @@ Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
 
         NOTE: Log out and log back in **** (Important)**
 
-3.Install &amp; Run Hyperledger
+3. Install &amp; Run Hyperledger
 
         cd ~/hyperledger-fabric-starter/
 
@@ -35,7 +35,7 @@ Assuming you have Ubuntu 16.04 LTS setup successfully, please proceed to step 1.
 
         ./install-hyperledger-composer-ubuntu.sh
 
-4.Install &amp; Run Hyperledger
+4. Install &amp; Run Hyperledger
 
         chmod u+x install-hyperledger-sogetiConsultantChain-ubuntu.sh
 
