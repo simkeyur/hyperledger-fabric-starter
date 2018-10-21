@@ -20,11 +20,25 @@
 # User must then logout and login upon completion of script
 #
 
+#Installing Go lang 1.9
+sudo curl -O https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
+sudo tar -xvf go1.9.1.linux-amd64.tar.gz
+
+echo "Moving go to /usr/local"
+sudo mv go /usr/local
+
+echo "Setting Go Paths"
+mkdir $HOME/work
+export GOPATH=$HOME/work
+mkdir -p work/src/github.com/hyperledger && cd ~/work/src/github.com/hyperledger
+
+git clone http://gerrit.hyperledger.org/r/fabric
+
 #Install Hyperledger Fabric
 mkdir ~/Projects && cd ~/Projects
 
 git clone https://github.com/CarlosRangel17/fabric-consultantchain.git 
 
-cd  fabric-consultantchain/tuna-app && node server.js
+./startApp.sh
 
 echo "Please go to localhost:8000"
